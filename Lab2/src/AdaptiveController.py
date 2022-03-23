@@ -150,22 +150,6 @@ class SimpleController(app_manager.RyuApp):
             actions=actions,
             hard_timeout=0
             )
-
-        ############################################################################
-        ## Modify this part in "controller1.py" and "controller2.py"              ##
-	    ## not in "SimpleController.py".      					                  ##
-        ## The example code shows the forwarding rules as the following figure.   ##
-        ##                                                                        ##
-        ## ex.             s1  s4 <===> h2                                        ##
-        ##                    /                                                   ##
-        ##                   /                                                    ##
-        ##        h1 <===> s2  s3                                                 ##
-	    ##                                                                        ##
-        ## [TODO] Define the new forwarding rules in ppt.			                      ##
-        ##                                                                        ##
-        ############################################################################
-
-        # TODO section BEGIN -----------------------------------------------------
 	
         # Add forwarding rule in s1
         if msg.datapath.id == 1:
@@ -315,7 +299,6 @@ class SimpleController(app_manager.RyuApp):
                 actions=actions,
                 hard_timeout=20)
 
-        # TODO Section END ------------------------------------------------------
     
     '''
     METHOD : packet_in_handler (@set_ev_cls)
