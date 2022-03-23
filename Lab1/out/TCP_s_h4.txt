@@ -1,0 +1,12 @@
+------------------------------------------------------------
+Server listening on TCP port 7777
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  4] local 10.0.0.4 port 7777 connected with 10.0.0.1 port 54276
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec   238 KBytes  1.95 Mbits/sec
+[  4]  1.0- 2.0 sec   230 KBytes  1.89 Mbits/sec
+[  4]  2.0- 3.0 sec   233 KBytes  1.91 Mbits/sec
+[  4]  3.0- 4.0 sec   233 KBytes  1.91 Mbits/sec
+[  4]  4.0- 5.0 sec   233 KBytes  1.91 Mbits/sec
+[  4]  0.0- 5.0 sec  1.14 MBytes  1.92 Mbits/sec
