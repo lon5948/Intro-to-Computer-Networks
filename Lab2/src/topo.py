@@ -18,7 +18,6 @@ class Topology(Topo):
         s4 = self.addSwitch('s4')
 
         # Add links into topology
-	# [TODO] Add contraints(bw, delay, loss)
         self.addLink(s2, h1, port1=1, port2=1)
         self.addLink(s1, s3, port1=2, port2=2, bw=30, delay='1ms', loss=1)
         self.addLink(s1, s4, port1=1, port2=2, bw=20, delay='2ms', loss=1)
